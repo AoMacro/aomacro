@@ -4,7 +4,7 @@ export PATH
 clear
 rm -rf $0
 echo
-    echo -e "感谢使用 “\033[35m 刺客博客 \033[0m”一键SSR翻墙加速脚本"
+    echo -e "感谢使用 “\033[35m AoMacro \033[0m”一键SSR翻墙加速脚本"
 	echo;
 
 libsodium_file="libsodium-1.0.17"
@@ -184,8 +184,8 @@ pre_install(){
         exit 1
     fi
     # Set ShadowsocksR config password
-read -p "(回车将默认设置连接密码为：4ker.cc):" shadowsockspwd
-    [ -z "$shadowsockspwd" ] && shadowsockspwd="4ker.cc"
+read -p "(回车将默认设置连接密码为：axwwl123):" shadowsockspwd
+    [ -z "$shadowsockspwd" ] && shadowsockspwd="axwwl123"
     echo
     echo "---------------------------"
     echo "Ok，密码已设置为 = $shadowsockspwd"
@@ -432,7 +432,6 @@ install(){
         echo -e "加密方法: \033[41;37m ${shadowsockscipher} \033[0m"
         echo
         echo "感谢使用一键SSR脚本,备份不易，请勿外传。"
-        echo "欢迎访问我的博客 https://cikeblog.com "
         echo "本脚本仅供学习交流工作使用，请勿用于非法用途"
         echo
     else
