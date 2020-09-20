@@ -4,7 +4,7 @@ export PATH
 clear
 rm -rf $0
 echo
-    echo -e "感谢使用 “\033[35m AoMacro \033[0m”一键SSR翻墙加速脚本"
+    echo -e "感谢使用 "\033[35m AoMacro \033[0m"一键SSR翻墙加速脚本"
 	echo;
 
 libsodium_file="libsodium-1.0.17"
